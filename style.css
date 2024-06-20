@@ -1,0 +1,350 @@
+html{
+    scroll-behaviour: smooth;
+    }
+    
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('assets/bg10.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+#home {
+   height: 80vh;
+}
+
+.cta {
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(108, 193, 249);
+    margin-right: 50px;
+    font-size: 15px;
+    margin-left: 950px;
+}
+
+
+
+.logo-img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 30px;
+}
+
+
+.a {
+    color: rgb(240, 243, 245);
+    font-size: large;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgba(red, green, blue, alpha);
+    border-radius: 5px;
+    font-size: 15px;
+    transition: 200ms;
+}
+
+a:hover{
+    box-shadow: 0 0 2px 2px rgba(red, rgb(26, 179, 26), blue, alpha) ;
+} 
+
+
+.home {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-content {
+    height: 60%;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background: #0d0d0e;
+    border-radius: 15px; */
+    box-shadow: 10px 10px 20px #050506 -10px -10px 20px #151516;
+}
+
+.home-content__img {
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 10px solid rgba(94, 202, 82, 0);
+    box-shadow: 10px 10px 30px -10px -10px 30px #2f2f2f2a;
+    float: right;
+    text-align: justify;
+}
+
+.home-content-para {
+    color:black;
+    text-align: right;
+    line-height: 2.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 1500;
+}
+
+/* @keyframes ani {
+    50% {
+        border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+        box-shadow: 10px -10px 30px #2f2f2f2a, -10px 10px 30px #000000;
+    }
+    100% {
+        border-radius: 65% 35% 28% 72% / 60% 62% 38% 40%;
+        box-shadow: 10px 10px 30px #000000, -10px -10px 30px #2f2f2f2a;
+    }
+} */
+
+
+@media screen and (max-width:400px) {
+    .a {
+        font-size: 10px;
+    }
+    .home-content {
+        flex-direction: column;
+        width: 60%;
+    }
+    .home-content__para {
+        font-size: 15px;
+        line-height: normal;
+    }
+    .home-content__img {
+        width: 130px;
+        height: 130px;
+    }
+}   
+
+
+.btn {
+    padding: 15px;
+    border-radius: 50px;
+    background-color: rgb(114, 196, 250);
+} 
+
+.g {
+    margin-bottom: 10px;
+    margin-top: 300px;
+}
+
+.about {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;  
+    padding: 100px; 
+    margin-left: 100px; 
+    margin-right: 100px;
+    text-align: justify;
+    /* padding-top: 100px;  */
+    font-size: 18px;
+}
+
+.o {
+    margin-top: 800px;
+    margin-bottom: 10px;
+}
+.h-skills {
+    margin-top: 50px;
+    margin-left: 190px;
+}
+.para {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+a {
+    color:black;
+    font-size: large;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-left: 100px;
+}
+.ms {
+    padding-top: 100px;
+    padding-left: 50px;
+    width: 100px;
+    height: 100px;
+    border-end-end-radius: 20px;
+    
+}
+
+
+.c {
+    padding-top: 100px;
+    padding-left: 50px;
+    width: 100px;
+    height: 100px;
+    border-end-end-radius: 20px;
+}
+
+.py {
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 200px;
+    width: 100px;
+    height: 100px;
+    border-end-end-radius: 20px;
+}
+
+a {
+    color:black;
+    font-size: large;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-left: 150px;
+}
+.html {
+    padding-top: 100px;
+    padding-left: 50px;
+    /* padding-right: 200px; */
+    width: 100px;
+    height: 100px;
+    border-end-end-radius: 20px;
+}
+
+
+.css {
+    padding-top: 100px;
+    padding-left: 50px;
+    width: 100px;
+    height: 100px;
+    border-end-end-radius: 20px;
+}
+
+.ml {
+    padding-top: 100px;
+    padding-left: 50px;
+    width: 100px;
+    height: 100px;
+    border-end-end-radius: 20px;
+}
+
+.p {
+    margin-top: 800px;
+    margin-bottom: 10px;
+}
+
+.projects {
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: aliceblue;
+}
+.p1 {
+    color: aliceblue;
+}
+
+.p2 {
+    color: aliceblue;
+}
+
+.proj {
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.proj-content {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+    color: aliceblue;
+    font-size: 20px;
+
+}
+
+.proj-content1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding-top: 50px;
+     color: aliceblue;
+     font-size: 20px;
+}
+
+.crop {
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 200px;
+    height: 200px;
+    border-end-end-radius: 20px;
+}
+
+
+
+.brain {
+    padding-top: 50px;
+    width: 200px;
+    height: 200px;
+    border-end-end-radius: 20px;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.heart {
+    padding-left: 10px;
+    margin-left: 10px;
+    padding-top: 50px;
+    width: 200px;
+    height: 200px;
+    border-end-end-radius: 20px; 
+}
+
+
+.h {
+    color: aliceblue;
+}
+
+.contact {
+    color: aliceblue;
+    margin-left: 50px;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.footer {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 14px;
+    color:aliceblue;
+}
+.footer .social-icons {
+    margin-top: 10px;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+.footer .social-icons a:hover {
+    color: #060b10dc;
+}
+
+/* .leetcode-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+} */
+
+.leetcode-icon svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
